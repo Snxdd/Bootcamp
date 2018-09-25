@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/Snxdd/git@github.com:Snxdd/Bootcamp.git.svg?branch=master)](https://travis-ci.org/Snxdd/git@github.com:Snxdd/Bootcamp.git)
+[![Build Status](https://travis-ci.org/Snxdd/Bootcamp.svg?branch=master)](https://travis-ci.org/Snxdd/Bootcamp)
