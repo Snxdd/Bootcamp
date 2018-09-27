@@ -12,11 +12,11 @@ public class GreetingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_greeting);
 
-        //Intent intent = getIntent();
-        //String message = ((Intent) intent).getStringExtra(MainActivity.EXTRA_MESSAGE);
+        Intent intent = getIntent();
+        String message = ((Intent) intent).getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        //TextView textView = findViewById(R.id.greetingMessage);
-        //textView.setText(message);
+        TextView textView = findViewById(R.id.greetingMessage);
+        textView.setText("Hello " + message +"!");
 
 
     }
